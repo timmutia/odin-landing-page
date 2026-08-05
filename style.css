@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    /* background colors */
+    --dark-background: #1F2937;
+    --gray-background: #E5E7EB;
+    --blue-background: #3882F6;
+    
+    /* text colors */ 
+    --hero-text-color: #F9FAF8;
+    --hero-secondary-text-color: #E5E7EB;
+    --par-text-color: #1F2937;
+
+    /* font sizes */ 
+    --hero-font: 48px;
+    --h2-font: 36px;
+    --h3-font: 24px;
+    --secondary-font: 18px;
+}
+
+.bold {
+    font-weight: 900;
+}
