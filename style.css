@@ -179,6 +179,36 @@ h2 {
 }
 
 
+/* quote section */
+
+
+.quote-section {
+    background-color: var(--gray-background);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.blockquote > p {
+    align-self: flex-end;
+}
+
+blockquote p {
+    font-size: var(--h2-font);
+    color: var(--par-text-color);
+    font-weight: 300;
+    font-style: italic;
+}
 
 
 @media screen and (max-width: 1439px){
@@ -192,6 +222,13 @@ h2 {
         header, section, footer {
         padding-left: calc((100vw - 680px)/2);
         padding-right: calc((100vw - 680px)/2);
+    }
+    .blockquote {
+        width: 80%;
+    }
+
+    blockquote p {
+        font-size: var(--h3-font);
     }
 }
 
