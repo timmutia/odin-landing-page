@@ -56,6 +56,14 @@ section {
     display: flex;
 }
 
+
+.button {
+    max-width: 10rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: var(--secondary-font);
+}
+
 /* header */
 
 header {
@@ -81,13 +89,17 @@ header {
     background-color: var(--dark-background);
     justify-content: space-between;
     flex-direction: row;
-    padding-top: 3em;
-    padding-bottom: 5em;
+    padding-top: 7em;
+    padding-bottom: 9em;
     gap: 5em;
 }
 
 .left-text {
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
 }
 
 h1 {
@@ -103,7 +115,14 @@ h1 {
     width: 100%;
     max-width: 700px;
     height: auto;
+    border: 1px solid gray;
 
+}
+
+.blue-btn {
+    background-color: var(--blue-background);
+    color: var(--hero-text-color);
+    
 }
 
 /* random-information */
