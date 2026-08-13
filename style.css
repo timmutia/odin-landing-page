@@ -136,12 +136,11 @@ h1 {
 /* random-information section */
 
 .random-info-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 3rem;
 }
 
 h2 {
@@ -186,7 +185,6 @@ h2 {
     background-color: var(--gray-background);
     padding-top: 2rem;
     padding-bottom: 2rem;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -216,7 +214,6 @@ blockquote p {
     min-height: 30vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    display: flex;
     align-items: center;
 }
 
@@ -251,6 +248,20 @@ blockquote p {
     background-color: var(--blue-background);
     color: var(--hero-text-color);
 }
+
+/* footer */
+footer {
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--hero-text-color);
+    font-size: var(--secondary-font);
+}
+
 
 @media screen and (max-width: 1439px){
         header, section, footer {
