@@ -64,7 +64,7 @@ section {
 
 
 .button {
-    max-width: 10rem;
+    width: 10rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     font-size: var(--secondary-font);
@@ -210,6 +210,47 @@ blockquote p {
     font-style: italic;
 }
 
+/* call-to-action section */
+
+.call-to-act-section {
+    min-height: 30vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.call-to-act {
+    width: 100%;
+    background-color: var(--blue-background);
+    border-radius: 10px;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.call-to-act .left-text {
+    max-width: 600px;
+    gap: 0.1rem;
+}
+
+.call-to-act h3 {
+    color:var(--hero-text-color);
+    font-size: var(--h3-font);
+}
+
+.call-to-act p {
+    color: var(--hero-secondary-text-color);
+    font-size: var(--secondary-font);
+}
+
+.transparent-btn {
+    border: 1px solid var(--hero-text-color);
+    background-color: var(--blue-background);
+    color: var(--hero-text-color);
+}
 
 @media screen and (max-width: 1439px){
         header, section, footer {
@@ -229,6 +270,10 @@ blockquote p {
 
     blockquote p {
         font-size: var(--h3-font);
+    }
+
+    .call-to-act {
+        padding: 2.5rem 5rem;
     }
 }
 
